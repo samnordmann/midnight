@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400);
+
+body {
+  background: url(http://www.midnightlocomotive.com/bg.jpg) no-repeat center fixed;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisÃ©e */
+}
+
+#social:hover {
+	-webkit-transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-o-transform:scale(1.1);
+}
+
+#social {
+	-webkit-transform:scale(0.8);
+       /* Browser Variations: */
+	   -moz-transform:scale(0.8);
+	   -o-transform:scale(0.8);
+	   -webkit-transition-duration: 0.5s;
+	   -moz-transition-duration: 0.5s;
+	   -o-transition-duration: 0.5s;
+}
+
+.social-fb, .social-tw, .social-in, .social-sd {
+	padding-top:1%;
+	padding-bottom:10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: black;
+}
+
+.social-fb:hover {
+	color: #3B5998;
+}
+.social-tw:hover {
+	color: #4099FF;
+}
+.social-in:hover {
+	color: #914926;
+}
+.social-sd:hover {
+	color: #f39c12;
+}
+
+.vid {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+.vid iframe,
+.vid object,
+.vid embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.gallery {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.contact {
+	padding-bottom:20px;
+	font-family: 'Montserrat', sans-serif;
+}
