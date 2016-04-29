@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "midnight locomotive's website",
   "main": "",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "npm run client:install",
+    "client:install": "./node_modules/.bin/bower install"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/samnordmann/midnight"
