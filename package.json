@@ -1,0 +1,19 @@
+{
+  "name": "midnightlocomotive",
+  "version": "1.0.0",
+  "description": "midnight locomotive's website",
+  "main": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/samnordmann/midnight"
+  },
+  "author": "Maxime Sraïki",
+  "license": "proprietary",
+  "bugs": {},
+  "homepage": "public/index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "1.7.9"
+  }
+}
